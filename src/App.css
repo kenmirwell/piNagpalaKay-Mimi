@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@200;300;400&family=Great+Vibes&display=swap');
+
 #root {
 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fdf6ee;
+  color: #2d1f14;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+
+::placeholder {
+  color: rgba(253, 246, 238, 0.5);
+}
+
+select option {
+  background: #d28861;
+  color: #fdf6ee;
+}
+
+input:focus,
+select:focus {
+  border-color: rgba(253, 246, 238, 0.7) !important;
 }
