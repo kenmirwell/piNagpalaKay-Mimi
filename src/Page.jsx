@@ -8,7 +8,6 @@ import Countdown from "./Sections/CountDown";
 import Schedule from "./Sections/Schedule";
 import Gallery from "./Sections/Gallery";
 import Details from "./Sections/Details";
-import Rsvp from "./Sections/Rsvp";
 import Footer from "./Sections/Footer";
 
 // ── QR Code effect (runs after DOM ready) ────────────────────
@@ -155,7 +154,6 @@ export default function WeddingApp() {
       <Schedule />
       <Gallery />
       <Details />
-      <Rsvp/>
       <Footer />
       <QREffect />
     </>
