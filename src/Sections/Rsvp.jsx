@@ -25,7 +25,7 @@ export default function Rsvp() {
               </div>
               <input type="email" className="px-4 py-4 text-xs tracking-wide outline-none w-full" placeholder="Email Address" style={{background:"rgba(253,246,238,0.15)", border:"1px solid rgba(253,246,238,0.3)", color:"#fdf6ee"}} />
               <select className="px-4 py-4 text-xs tracking-wide outline-none w-full appearance-none" style={{background:"rgba(253,246,238,0.15)", border:"1px solid rgba(253,246,238,0.3)", color:"#fdf6ee"}}>
-                <option value="">Attending?</option>
+                <option value="">Attending??</option>
                 <option>Joyfully Accept</option>
                 <option>Accept with a Guest</option>
                 <option>Regretfully Decline</option>
