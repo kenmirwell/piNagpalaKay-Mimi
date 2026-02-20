@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import useParallax from "../Helpers/useParallax";
 
-export default function RSVP() {
+export default function Rsvp() {
   const bgRef = useParallax(0.25);
   const [submitted, setSubmitted] = useState(false);
 
