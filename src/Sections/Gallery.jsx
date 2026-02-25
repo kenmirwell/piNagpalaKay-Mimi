@@ -1,6 +1,6 @@
 import Reveal from "../Subcomponents/Reveal";
 import familyPic from "../assets/family.png"
-import firstPhoto from "../assets/first_photo.jpg"
+import firstPhoto from "../assets/first_photo.JPG"
 import gfbfFinally from "../assets/rides.png"
 import weddingPlanning from "../assets/planning.png"
 import proposal from "../assets/proposal.jpg"
