@@ -2,10 +2,10 @@ import Reveal from "../Subcomponents/Reveal";
 
 export default function Schedule() {
   const items = [
-    { time: "3:00 PM", name: "Ceremony", desc: "Join us as we exchange our vows in an intimate and heartfelt celebration of our love." },
-    { time: "4:30 PM", name: "Cocktail Hour", desc: "Raise a glass with drinks, light bites, and good company as we celebrate together." },
-    { time: "6:00 PM", name: "Dinner", desc: "A lavish feast featuring curated courses, toasts, and heartfelt speeches from loved ones." },
-    { time: "9:00 PM", name: "Dancing", desc: "Dance the night away as we celebrate love, family, and beautiful new beginnings." },
+    { time: "4:00 PM", name: "Ceremony", desc: "We say “I do’ and begin forever." },
+    { time: "5:30 PM", name: "Cocktail Hour", desc: "Sip, Mingle and celebrate with us." },
+    { time: "6:30 PM", name: "Dinner", desc: "Good food. Full hearts. Joyful toasts" },
+    { time: "8:30 PM", name: "Shower of Blessings", desc: "Prayers, love, and words over our marriage." },
   ];
   return (
     <section id="schedule" className="py-24 px-6 md:px-14" style={{background:"#2d1f14", position:"relative", overflow:"hidden"}}>

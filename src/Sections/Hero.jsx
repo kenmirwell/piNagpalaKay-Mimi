@@ -42,7 +42,7 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative text-center text-amber-50 z-10">
-        <p className="text-xs tracking-widest uppercase mb-5 opacity-90">April 9, 2026 · Philippines</p>
+        <p className="text-xs tracking-widest uppercase mb-5 opacity-90">9 April 2026 | CRC Events Place, Lingga, Calamba City </p>
         <div style={{fontFamily:"'Great Vibes', cursive", fontSize:"clamp(4rem,10vw,8rem)", lineHeight:1, textShadow:"0 4px 30px rgba(45,31,20,0.3)"}}>
           Michelle
           <span className="block opacity-70" style={{fontSize:"0.4em", margin:"-10px 0"}}>&</span>

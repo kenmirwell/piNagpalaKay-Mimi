@@ -1,7 +1,7 @@
 import FooterLandscape from "../SvgScenes/FooterLandscape";
 
 export default function Footer() {
-  const links = ["story","schedule","details","rsvp"];
+  const links = ["story","schedule","details"];
   return (
     <>
       <FooterLandscape />
