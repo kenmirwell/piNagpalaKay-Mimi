@@ -1,4 +1,6 @@
 import Reveal from "../Subcomponents/Reveal";
+import Ladies from "../assets/Ladies.png"
+import Gentlemen from "../assets/Gentlemen.png"
 
 export default function Details() {
   const topCards = [
@@ -8,7 +10,7 @@ export default function Details() {
       text: "CRC Events Place, Lingga",
     },
     {
-      icon: "🏨",
+      icon: "🕒",
       title: "Call Time",
       text: "The ceremony starts at 4:00 PM. We encourage you to arrive by 3:30 PM, as the main gate will close at 3:40 PM to prepare for the ceremony.",
     },
@@ -18,13 +20,16 @@ export default function Details() {
     icon: "👗",
     title: "Dress Code",
     theme: "Semi-Formal — inspired by the sky's transition from day to night.",
+    color: ["#ffbc99", "#d28861", "#fbc380", "#f9e2d1", "#e4bcc4", "#e88e5a"],
     ladies: {
       label: "Ladies",
       text: "Comfortable yet chic garden party dresses in sunset shades. Plain and flowy pieces are lovely. Floral prints and textured fabrics are highly encouraged.",
+      src: Ladies
     },
     gents: {
       label: "Gentlemen",
       text: "Clean and elevated looks in light fabrics like linen or cotton. Button-down shirts (long or short sleeves) paired with light trousers are perfect.",
+      src: Gentlemen
     },
     avoid: "Kindly avoid wearing white, coats, or blazers.",
     closing: "We can't wait to see you in your sunset best! 🌅",
@@ -110,17 +115,24 @@ export default function Details() {
             />
 
             {/* Header */}
-            <div className="flex items-center gap-4 mb-2">
-              <span className="text-3xl">{dresscode.icon}</span>
-              <h3
-                style={{
-                  fontFamily: "'Cormorant Garamond', serif",
-                  fontSize: "1.5rem",
-                  color: "#2d1f14",
-                }}
-              >
-                {dresscode.title}
-              </h3>
+            <div className="flex flex-col md:flex-row md:items-center gap-4 mb-2 pb-[20px] ">
+              <div className="flex items-center gap-[20px]">
+                <span className="text-3xl">{dresscode.icon}</span>
+                <h3
+                  style={{
+                    fontFamily: "'Cormorant Garamond', serif",
+                    fontSize: "1.5rem",
+                    color: "#2d1f14",
+                  }}
+                >
+                  {dresscode.title}
+                </h3>
+              </div>
+              <div className="flex gap-[5px] md:gap-[20px] md:pl-[20px]">
+                {dresscode.color.map(i => (
+                  <div style={{backgroundColor: i}} className={`h-[35px] md:h-[50px] min-w-[35px] md:w-[50px] rounded-full shadow-md`}></div>
+                ))}
+              </div>
             </div>
 
             <p
@@ -141,6 +153,9 @@ export default function Details() {
                     borderLeft: "2px solid #d28861",
                   }}
                 >
+                  <div className={`px-[50px]`}>
+                    <img className="" src={g.src} alt="" />
+                  </div>
                   <p
                     className="text-xs tracking-widest uppercase text-amber-700 mb-2"
                     style={{ fontFamily: "'Cormorant Garamond', serif" }}

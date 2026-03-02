@@ -171,7 +171,18 @@ export default function Intro() {
               What once felt like a closed chapter turned out to be a beautiful
               pause.
             </p>
-            <p
+            <p className="pt-[20px]"
+              style={{
+                fontFamily: "'Cormorant Garamond', serif",
+                fontSize: "clamp(1.1rem,2vw,1.3rem)",
+                fontWeight: 300,
+                color: "#2d1f14",
+                lineHeight: 1.6,
+              }}
+            >
+              Because this love story?
+            </p>
+            <p className="pb-[20px]"
               style={{
                 fontFamily: "'Cormorant Garamond', serif",
                 fontSize: "clamp(1.2rem,2.5vw,1.5rem)",
@@ -181,18 +192,20 @@ export default function Intro() {
                 lineHeight: 1.6,
               }}
             >
-              Because this love story? Jesus authored it.
+              Jesus authored it.<br/>
+              It was always meant to be<br/>
+              It simply a decade in the making.<br/>
             </p>
+            
             <p
               style={{
                 fontFamily: "'Cormorant Garamond', serif",
-                fontSize: "clamp(1rem,2vw,1.2rem)",
-                fontWeight: 300,
+                fontSize: "clamp(1rem,2vw,1.9rem)",
+                fontWeight: 800,
                 color: "#2d1f14",
                 lineHeight: 1.6,
               }}
             >
-              It was always meant to be — simply a decade in the making.
               All by God's grace.
             </p>
           </div>
