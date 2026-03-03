@@ -7,10 +7,10 @@ export default function Nav({ scrolled }) {
         K&M
       </div>
       <ul className="hidden md:flex gap-10 list-none">
-        {["story","schedule","details"].map(s => (
+        {["story","schedule", "details", "gift"].map(s => (
           <li key={s}>
             <a href={`#${s}`} className="text-amber-50 no-underline tracking-widest uppercase text-xs opacity-90 hover:opacity-60 transition-opacity" style={{textShadow:"0 1px 3px rgba(0,0,0,0.3)"}}>
-              {s === "story" ? "Our Story" : s.charAt(0).toUpperCase() + s.slice(1)}
+              {s === "story" ? "Our Story" : s === "gift" ? "Gift Guide" : s.charAt(0).toUpperCase() + s.slice(1)}
             </a>
           </li>
         ))}

@@ -4,7 +4,7 @@ export default function GiftGuide() {
   const crossed = ["Kalan", "Baso", "Plato", "Rice Cooker"];
 
   return (
-    <section className="py-24 px-6 md:px-14 relative overflow-hidden">
+    <section id="gift" className="py-24 px-6 md:px-14 relative overflow-hidden">
 
       {/* Soft background wash */}
       <div

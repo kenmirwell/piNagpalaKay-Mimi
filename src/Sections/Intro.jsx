@@ -200,7 +200,7 @@ export default function Intro() {
             <p
               style={{
                 fontFamily: "'Cormorant Garamond', serif",
-                fontSize: "clamp(1rem,2vw,1.9rem)",
+                fontSize: "clamp(1rem,2vw,1.5em)",
                 fontWeight: 800,
                 color: "#2d1f14",
                 lineHeight: 1.6,
@@ -215,8 +215,23 @@ export default function Intro() {
           <p className="text-sm leading-relaxed text-amber-800 mb-10 max-w-md">
             And as we begin this new chapter, our hearts are full of
             anticipation — trusting how He will use our story to lead others
-            into knowing Jesus. All for His glory.
+            into knowing Jesus.
           </p>
+        </Reveal>
+
+
+        <Reveal delay={0.3}>
+          <p className={`pb-[40px] md:pb-0`}
+              style={{
+                fontFamily: "'Cormorant Garamond', serif",
+                fontSize: "clamp(1rem,2vw,1.5rem)",
+                fontWeight: 800,
+                color: "#2d1f14",
+                lineHeight: 1.6,
+              }}
+            >
+              All for His glory.
+            </p>
         </Reveal>
 
         {/* Verse shown in left column card on desktop; show inline only on mobile */}
