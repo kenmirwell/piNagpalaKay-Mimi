@@ -194,7 +194,7 @@ export default function Intro() {
             >
               Jesus authored it.<br/>
               It was always meant to be<br/>
-              It simply a decade in the making.<br/>
+              It's simply a decade in the making.<br/>
             </p>
             
             <p
