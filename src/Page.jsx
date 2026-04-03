@@ -10,6 +10,7 @@ import Gallery from "./Sections/Gallery";
 import Details from "./Sections/Details";
 import Footer from "./Sections/Footer";
 import GiftGuide from "./Sections/GiftGuide";
+import MapGuide from "./Sections/MapGuide";
 
 // ── QR Code effect (runs after DOM ready) ────────────────────
 function QREffect() {
@@ -156,6 +157,7 @@ export default function WeddingApp() {
       <Gallery />
       <Details />
       <GiftGuide/>
+      <MapGuide/>
       <Footer />
       <QREffect />
     </>

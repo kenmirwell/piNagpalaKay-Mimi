@@ -1,9 +1,9 @@
 import Reveal from "../Subcomponents/Reveal";
-import familyPic from "../assets/family.png"
-import firstPhoto from "../assets/first_photo.JPG"
-import gfbfFinally from "../assets/rides.png"
-import weddingPlanning from "../assets/planning.png"
-import proposal from "../assets/proposal.jpg"
+import familyPic from "../assets/family.webp"
+import firstPhoto from "../assets/first_photo.webp"
+import gfbfFinally from "../assets/rides.webp"
+import weddingPlanning from "../assets/planning.webp"
+import proposal from "../assets/proposal.webp"
 
 
 export default function Gallery() {
@@ -72,6 +72,8 @@ export default function Gallery() {
               <img
                 src={p.src}
                 alt={p.label}
+                loading="lazy"
+                decoding="async"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 style={{ objectPosition: p.position }}
               />

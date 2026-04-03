@@ -1,6 +1,6 @@
 import Reveal from "../Subcomponents/Reveal";
-import Ladies from "../assets/Ladies.png"
-import Gentlemen from "../assets/Gentlemen.png"
+import Ladies from "../assets/Ladies.webp"
+import Gentlemen from "../assets/Gentlemen.webp"
 
 export default function Details() {
   const topCards = [
@@ -154,7 +154,7 @@ export default function Details() {
                   }}
                 >
                   <div className={`px-[50px]`}>
-                    <img className="" src={g.src} alt="" />
+                    <img className="" src={g.src} alt="" loading="lazy" decoding="async" />
                   </div>
                   <p
                     className="text-xs tracking-widest uppercase text-amber-700 mb-2"

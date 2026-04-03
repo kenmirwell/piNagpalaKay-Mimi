@@ -1,6 +1,6 @@
 import Reveal from "../Subcomponents/Reveal";
 import Ornament from "../Subcomponents/Ornament";
-import venue from "../assets/venue.png";
+import venue from "../assets/venue.webp";
 
 export default function Intro() {
   return (
@@ -20,6 +20,8 @@ export default function Intro() {
               <img
                 src={venue}
                 alt="Ken & Mimi"
+                loading="lazy"
+                decoding="async"
                 className="w-full h-full object-cover object-top"
               />
             </div>
