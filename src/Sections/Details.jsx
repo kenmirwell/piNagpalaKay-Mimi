@@ -43,7 +43,7 @@ export default function Details() {
   return (
     <section
       id="details"
-      className="py-24 px-6 md:px-14 relative overflow-hidden"
+      className="scroll-mt-24 py-24 px-6 md:px-14 relative overflow-hidden"
       style={{ background: "#ffbc99" }}
     >
       <div

@@ -1,11 +1,12 @@
 import { useState } from "react";
 
-const navItems = ["story", "schedule", "details", "gift", "map"];
+const navItems = ["story", "schedule", "details", "gift", "map", "seat"];
 
 function getLabel(s) {
   if (s === "story") return "Our Story";
   if (s === "gift") return "Gift Guide";
   if (s === "map") return "Map Guide";
+  if (s === "seat") return "Seat Plan";
   return s.charAt(0).toUpperCase() + s.slice(1);
 }
 

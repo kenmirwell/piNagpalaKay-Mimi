@@ -8,7 +8,7 @@ export default function Schedule() {
     { time: "8:30 PM", name: "Shower of Blessings", desc: "Prayers, love, and words over our marriage." },
   ];
   return (
-    <section id="schedule" className="py-24 px-6 md:px-14" style={{background:"#2d1f14", position:"relative", overflow:"hidden"}}>
+    <section id="schedule" className="scroll-mt-24 py-24 px-6 md:px-14" style={{background:"#2d1f14", position:"relative", overflow:"hidden"}}>
       <div className="absolute top-0 right-0 w-96 h-96 rounded-full pointer-events-none" style={{background:"radial-gradient(circle,rgba(210,136,97,0.15) 0%,transparent 70%)"}} />
       <div className="max-w-5xl mx-auto relative z-10">
         <Reveal><p className="text-xs tracking-widest uppercase text-amber-600 mb-3">Wedding Day</p></Reveal>

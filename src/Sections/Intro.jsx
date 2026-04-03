@@ -6,7 +6,7 @@ export default function Intro() {
   return (
     <section
       id="story"
-      className="max-w-6xl mx-auto px-6 md:px-14 py-28 grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-20 items-start"
+      className="scroll-mt-24 max-w-6xl mx-auto px-6 md:px-14 py-28 grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-20 items-start"
     >
       {/* Left column — photo + filler card beneath */}
       <div className="flex flex-col gap-8 md:sticky md:top-28">

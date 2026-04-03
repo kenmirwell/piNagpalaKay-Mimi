@@ -11,6 +11,7 @@ import Details from "./Sections/Details";
 import Footer from "./Sections/Footer";
 import GiftGuide from "./Sections/GiftGuide";
 import MapGuide from "./Sections/MapGuide";
+import SeatPlan from "./Sections/SeatPlan";
 
 // ── QR Code effect (runs after DOM ready) ────────────────────
 function QREffect() {
@@ -144,6 +145,18 @@ export default function WeddingApp() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  // Scroll to hash section on page load (e.g. /#seat)
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      const timer = setTimeout(() => {
+        const el = document.querySelector(hash);
+        if (el) el.scrollIntoView({ behavior: "smooth" });
+      }, 500);
+      return () => clearTimeout(timer);
+    }
+  }, []);
+
   return (
     <>
       <Sunlight />
@@ -158,6 +171,7 @@ export default function WeddingApp() {
       <Details />
       <GiftGuide/>
       <MapGuide/>
+      <SeatPlan/>
       <Footer />
       <QREffect />
     </>
