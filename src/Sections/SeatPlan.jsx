@@ -20,8 +20,7 @@ const TABLES = [
       "Mrs. Miriam Nagpala", "Lola Mila Ordoñez",
       "Mrs. Corazon Villar", "Mr. Linberg Villar",
       "Ms. Lolita Garcia", "Mr. Joshua Gamboa",
-      "Mrs. Anne Jane Gamboa", "Mr. Scott Keith Acland",
-      "Mrs. Nancy Acland", "Mrs. Marie Mylitt Lim",
+      "Mrs. Anne Jane Gamboa", "Mrs. Marie Mylitt Lim",
       "Mr. Edward Cedric Lim", "Mr. Eric Barrion",
       "Mrs. Daisy Barrion"
     ],
@@ -46,15 +45,17 @@ const TABLES = [
   {
     name: "Table 3",
     guests: [
-      "Daisy Barrion", "Eric Barrion", "John Tomas",
-      "Shien Dullavin", "Nikka Suasba", "Julianne Dawn Paje",
-      "Patty Leocario", "Ella Tinio",
+      "John Tomas", "Shien Dullavin", 
+      "Nikka Suasba", "Julianne Dawn Paje",
+      "Ally Tenorio", "Angelo Del Rosario",
+      "Patty Leocario", "Cyndy Buen",
     ],
   },
   {
     name: "Table 4",
     guests: [
-      "Dian Diaz", "Darlene Diaz", "Lian Gecale", "Darwin Diaz",
+      "Mary Dian Diaz", "Darlene Diaz", "Jade Lian Gecale", "Darwin Diaz", 
+      "Ruwel Gecale", "Ruwana Joy Gecale"
     ],
   },
   {
@@ -79,7 +80,7 @@ const TABLES = [
     guests: [
       "Love Galvan", "Jae Galvan", "Bong Flores", "Joy Flores",
       "Anjenneth Tumamak", "Christian Tumamak",
-      "Tin Guerrero", "Joseph Samonte",
+      "Raquel Barerra", "Moses Barrera"
     ],
   },
   {
@@ -95,24 +96,25 @@ const TABLES = [
     name: "Table 9",
     guests: [
       "Kinjo Joaquin", "Ronald Gacosta", "Rochelle Mentino",
-      "Rheg Verano", "Ally Tenorio", "Angelo Del Rosario",
-      "Jana Tenorio", "Hannah Gamboa",
+      "Rheg Verano", "Tin Guerrero", "Joseph Samonte",,
+      "Lenard Visaya",
     ],
   },
   {
     name: "Table 10",
     guests: [
-      "Moses Barrera", "Raquel Barrera", "Angelo Sarmiento",
-      "Ten Sandoval", "Marlein Montierro", "Cyndy Buen",
-      "Sandy Leocario", "Jen Natividad",
+      "Angelo Sarmiento", "Ten Sandoval", 
+      "Marlein Montierro", "Ella Tinio",
+      "Sandy Leocario", "Jen Natividad", 
+      "Jana Tenorio", "Hannah Gamboa"
     ],
   },
   {
     name: "Table 11",
     guests: [
       "Aprilyn Etorma", "Xhiane F. Esagre",
-      "Raymond Gimutao", "Joy Gimutao", "JM Hondo",
-      "Albert Tan", "Koko Capacete",
+      "Raymond Gimutao", "Joy Gimutao", "John Miguel JM Hondo",
+      "Albert Tan", "Abraham Koko Capacete",
       "Angelo Agapito", "Rhea Agapito",
     ],
   },
@@ -122,7 +124,7 @@ const TABLES = [
     guests: [
       "Coleen", "Claire", "Hadassah", "Elianna",
       "Thea", "Massey", "Kelsey",
-      "Nigel", "Gab", "Mattias", "Lukas", "Kayler",
+      "Nigel", "Gab", "Mattias", "Lukas", "Kayler", "Gian"
     ],
   },
 ];
