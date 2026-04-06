@@ -22,7 +22,8 @@ const TABLES = [
       "Ms. Lolita Garcia", "Mr. Joshua Gamboa",
       "Mrs. Anne Jane Gamboa", "Mr. Scott Keith Acland",
       "Mrs. Nancy Acland", "Mrs. Marie Mylitt Lim",
-      "Mr. Edward Cedric Lim",
+      "Mr. Edward Cedric Lim", "Mr. Eric Barrion",
+      "Mrs. Daisy Barrion"
     ],
   },
   {
